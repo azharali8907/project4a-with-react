@@ -31,8 +31,7 @@ function App() {
         onReady: () => setInterval( () => {
             speedDown();
             // calcScore();
-        }, 500 ),
-        onUpdate: () => calcScore(),
+        }, 500 )
     });
 
     const { ref: foreground1Ref, getAnimation: fore1Animation } = useWebAnimations({

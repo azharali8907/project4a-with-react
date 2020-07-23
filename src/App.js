@@ -45,7 +45,8 @@ function App() {
     onReady: () => setInterval( () => {
       speedDown();
       // calcScore();
-  }, 3000 )
+  }, 3000 ),
+  onUpdate: () => calcScore(),
   });
 
   
