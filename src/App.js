@@ -56,13 +56,7 @@ function App() {
    }
 
   
- {/* setInterval(()=>{
-      if(cloudAnum.getAnimation().playbackRate > 0.4)
-      {
-        cloudAnum.getAnimation().updatePlaybackRate(cloudAnum.getAnimation().playbackRate* .7);
-        fishAnum.getAnimation().updatePlaybackRate(fishAnum.getAnimation().playbackRate* .9); 
-      }
-    },3000)*/}
+ 
 
     const speedDown = () => {
       // Speed down alice.
