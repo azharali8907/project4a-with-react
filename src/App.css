@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #b5d9e8;
+}
+.wrapper, .background {
+  width: 100%;
+  height: 100%;
+}
+.son img{
+  width: 150px;
+  height: 150px;
+  margin: 28px 100px;
+}
+#cloud1 {
+  position: absolute;
+  width: 400px;
+  top: -140px;
+  left: 5%;
+}
+#cloud2 {
+  position: absolute;
+  width: 350px;
+  top: -60px;
+  right: 30%;
+}
+#sea{
+  width: 100%;
+  height: 300px;
+  margin-top: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+#bird2 {
+  position: absolute;
+  width: 300px;
+  top: 185px;
+  left: 35%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#fish2 {
+  position: absolute;
+  width: 270px;
+  top: 150px;
+  left: 20%;
+  right: 20%;
 }
